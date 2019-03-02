@@ -3,28 +3,183 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <script src="<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"></scripts>
-    <script src="js/scripts.js"></script>
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <title>Quiz Board</title>
   </head>
 
   <body>
   <div class="container">
-
-    <h1>JavaSripts Quiz Board</h1>
-    <label question for JavaScripts</label>
-<div class="intialy hidden">
-  <p><span> class="clickable"> click here</span> to start your Quiz</p>
-</div>
-<div class="well">
-  <h3>Question</h3>
-  <form>
-<div class="question">
-<label></label>
-</div>
-  </form>
-</div>
+    <form>
+  <div class="form-group">
+    <label for="Student Name">Student number</label>
+    <input type="Name" class="form-control" id="exampleInputName" placeholder="Name">
   </div>
+  <div class="form-group">
+    <label for="exampleInputstudentnumber">studentnumber</label>
+    <input type="studentnumber" class="form-control" id="exampleInputstudentnumber" placeholder="studentnumber">
+  </div>
+  <div class="form-group">
+    <p class57
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+  <h1><b>Questions</b></h1>
+
+  <p><h2>1. Which built-in method returns the calling string value converted to lower case?</h2></p>
+
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">A- toLowerCase</label><br/>
+
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">B- toLower()</label><br/>
+
+<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">C- changeCase(case)</label><br/>
+
+<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">D- None of the above.</label><br/>
+</ul>
+</form>
+<div id="results">
+
+The Right answers is
+
+</div>
+
+<div id="category1">
+  $('.carousel-control.left').click(function() {
+  $('#myCarousel').carousel('prev');
+});
+
+$('.carousel-control.right').click(function() {
+  $('#myCarousel').carousel('next');
+});
+
+  <input type="radio" name="Question2" value="5">
+<p><strong>Question 2:</strong> The correct answer is the <strong>Option A</strong>.</p>
+
+</div>
+Q 9 - Which of the following function of Array object adds one or more elements to the end of an array and returns the new length of the array?
+
+A - pop()
+
+B - push()
+
+C - join()
+
+D - map()
+
+<div class="form-group">
+              <label>3. What is the element called that can continue to execute a block of code as long as the specified
+                conditions are true?</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question3" value="0"> Repeater
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question3" value="5"> Loop
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question3" value="0"> Clone
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question3" value="0"> Debugger
+                </label>
+              </div>
+              <label> <span id="q3"></span> </label>
+            </div>
+            <div class="form-group">
+              <label>4. In JavaScript what element is used to manipulate and store text, usually in multiples?</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question4" value="0"> Variables
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question4" value="0"> Recorders
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question4" value="5"> Arrays
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question4" value="0"> Strings
+                </label>
+              </div>
+              <label> <span id="q4"></span> </label>
+            </div>
+            <div class="form-group">
+              <label>5. What is the type of loop that continues through a block of code as long as the specified condition
+                remains TRUE?
+              </label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question5" value="0"> Conditional loop
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question5" value="0"> Else loop
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question5" value="0"> While loop
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question5" value="5"> For loop
+                </label>
+              </div>
+              <label> <span id="q5"></span> </label>
+              <label>6. What is the name of the statement that is used to exit or end a loop?</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question6" value="5"> Break statement
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question6" value="0"> Exit statement
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question6" value="0"> Close statement
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="Question6" value="0"> Conditional statement
+                </label>
+              </div>
+              <label> <span id="q6"></span> </label>
+            </div>
+        </div>
+        <input type="submit" value="Submit" class=" btn btn-success">
+        </form>
+      </div>
+  </div>
+  <div class="finalResults">
+    <label><span class="display"></span></label>
+  </div>
+  <button id="reset" class="btn btn-default">Try Again</button>
+  </div>
+
+</form>
   </body>
 </html>
