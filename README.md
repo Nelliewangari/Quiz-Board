@@ -1,5 +1,5 @@
 {Quiz-Board}
-{A javascript quiz for students and it gives results of the test after the students has it.}, {24/2/2019}
+{A JavaScript quiz for students and it gives results of the test after the students has it.}, {24/2/2019}
 By {Nellie}
 
  list setup instructions
@@ -8,7 +8,7 @@ By {Nellie}
 The application is:
  simple
 easy-to-understand
-The project uses languages like HTML, CSS javaScript and bootstrap
+The project uses languages like HTML, CSS,JavaScript and bootstrap
 
 Support and contact details
 In case you need help to understand or add something to the application you can email me at: Nelliewangari11@gmail.com
