@@ -39,14 +39,7 @@ input.answer[type="radio"] {
 }
 
 input.quizSubmit[type="submit"] {
-  -webkit-background-clip: border-box;
-  -webkit-background-origin: padding-box;
-  -webkit-background-size: auto;
-  -webkit-transition-delay: 0s, 0s;
-  -webkit-transition-duration: 0.2s, 0.2s;
-  -webkit-transition-property: color, background-color;
-  -webkit-transition-timing-function: ease, ease;
-  box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px 0px;
+  
   color: #ffffff;
   background-color: #c30b0a;
   margin: 0;
@@ -75,17 +68,6 @@ table {
   box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px;
 }
 
-th {
-
-}
-
-tr {
-
-}
-
-td {
-
-}
 
 .submitter {
 	  width:85px;
