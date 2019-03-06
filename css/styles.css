@@ -39,7 +39,6 @@ input.answer[type="radio"] {
 }
 
 input.quizSubmit[type="submit"] {
-  
   color: #ffffff;
   background-color: #c30b0a;
   margin: 0;
@@ -47,7 +46,7 @@ input.quizSubmit[type="submit"] {
   outline: 0;
   text-transform:uppercase;
   height:35px;
-  width:85px;
+  width:75px;
   border: 1px solid #5E5E5E;
   border-radius:5px;
 
