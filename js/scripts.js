@@ -1,8 +1,3 @@
-
-		
-
-
-
 //function for adding total scores.
 var addResults = function(results){
   //check for NaN values, i.e, non-answered questions
@@ -21,16 +16,16 @@ var addResults = function(results){
   return totalScore;
 };
 
-var gradeChecker =function(score){
-  var gradeChecker;
+var gradecomment =function(score){
+  var gradecomment;
   if(score>=80){
-    gradeChecker ="Congratulations!! You have passed Excellently.";
+    gradeComment ="Congratulations!! You have done Excellently.";
   }else if(score>=50){
-    gradeChecker="Good job! You have passed fairly.";
+    gradeComment=" You have passed fairly.";
   }else{
-    gradeChecker = "You have failed. Please try again.";
+    gradeComment = "You have failed. Please try again.";
   }
-  return gradeChecker;
+  return gradeComment;
 };
 $(document).ready(function(){
 
@@ -44,7 +39,7 @@ $(document).ready(function(){
     }
 
      var totalScore = addResults(results);
-     var grade =gradeChecker(totalScore);
+     var grade =gradeComment(totalScore);
      $("#scoreResult").text(totalScore);
      $("#extraInfo").text(grade);
 

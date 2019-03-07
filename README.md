@@ -1,5 +1,5 @@
 # Quiz-Board
-#### A JavaScript quiz for students and it gives results of the test after the students has it.}, {24/2/2019}
+#### A JavaScript quiz for students and it gives results of the test after the students has done it. {24/2/2019}
 #### By {Nellie}
 ## Description
 The student answers all the questions and the end of the quiz he/she is able to get his/hers results.
