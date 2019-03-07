@@ -20,12 +20,6 @@ h2.quizScore{
   font-size:25px;
 }
 
-div.quizAnswers{
-  font-family: Arial, sans-serif;
-  font-size:16px;
-  color: #424242;
-  padding: 4px 0 4px 0;
-}
 
 label {
   font-family: Arial, sans-serif;
@@ -52,7 +46,7 @@ input.quizSubmit[type="submit"] {
 
  }
 
-input.quizSubmit[type="submit"]:hover {
+input.quizSubmit[type="submit"]:{
   color: #ffffff;
   background: #680f11;
   text-decoration: none;
