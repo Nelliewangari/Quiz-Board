@@ -19,7 +19,7 @@ var addResults = function(results){
 var gradecomment =function(score){
   var gradecomment;
   if(score>=80){
-    gradeComment ="Congratulations!! You have done Excellently.";
+    gradeComment ="Congratulations!! You have done Excellent.";
   }else if(score>=50){
     gradeComment=" You have passed fairly.";
   }else{
@@ -45,13 +45,4 @@ $(document).ready(function(){
 
      $("#scoreboard").show();
 
-     $("#quiz").hide();
-
-
-  });
-  $(".quizbtn").click(function(){
-    $("#quiz").show();
-  });
-
-
-});
+   }
